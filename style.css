@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 350px;
+    border: 2px dashed #333;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.list {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: lightblue;
+    border: 1px solid #333;
+    cursor: grab;
+    text-align: center;
+
+}
